@@ -21,6 +21,7 @@
 *.img
 *.lex.c
 *.lst
+*.map
 *.mod.c
 *.o
 *.o.*
@@ -29,6 +30,7 @@
 *.s
 *.su
 *.swp
+*.scr
 *.tab.[ch]
 
 # Build tree

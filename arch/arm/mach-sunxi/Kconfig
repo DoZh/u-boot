@@ -345,6 +345,10 @@ config ARM_BOOT_HOOK_RMR
 	This allows both the SPL and the U-Boot proper to be entered in
 	either mode and switch to AArch64 if needed.
 
+config SUN8I_LOW_MEM
+    bool "limit DRAM use with u-boot"
+    depends on MACH_SUN8I
+
 if SUNXI_DRAM_DW || DRAM_SUN50I_H6
 config SUNXI_DRAM_DDR3
 	bool
